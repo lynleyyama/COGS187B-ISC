@@ -1,0 +1,49 @@
+#navLogo {
+	max-width: 25%;
+}
+
+@media (max-width: 992px) {
+	#navLogo {
+		max-width: 10rem;
+	}
+
+	.left, .right {
+		margin-top: 10%;
+		width: 100%;
+		display: block;
+	}
+}
+
+a .navbar-brand {
+	padding: 0;
+	margin: 0;
+}
+
+.nav-item {
+	margin: 0 30px;
+	text-align: left;
+}
+
+#headImg {
+	max-height: 100%;
+}
+
+.left {
+	background-color: black;
+	color: white;
+}
+
+header {
+	max-height: 10rem;
+	margin-top: 7%;
+}
+
+
+/*.right {
+	background-image: url('img/header1.png');
+	background-position: center center;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}*/
