@@ -25,6 +25,8 @@
     <link href="css/creative.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet" type="text/css">
 
+
+
   </head>
 
   <body id="page-top">
@@ -39,16 +41,27 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about" style="color: black">About</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropbtn" href="#" style="color: black" role="button" id="aboutMenu">About</a>
+              <div class="dropdown-content" aria-labeledby="aboutMenu">
+                <a class="dropdown-item" href="#">Meet the Team</a>
+                <a class="dropdown-item" href="#">How to Get Involved</a>
+                <a class="dropdown-item" href="#">Newsletter</a>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services" style="color: black">Member Organizations</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio" style="color: black">Events</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropbtn" href="#" style="color: black" id="eventsMenu">Events</a>
+              <div class="dropdown-content" aria-labeledby="eventsMenu">
+                <a class="dropdown-item" href="#">Job Fair</a>
+                <a class="dropdown-item" href="#">Green Talks</a>
+                <a class="dropdown-item" href="#">Recyclemania Fair</a>
+                <a class="dropdown-item" href="#">Calendar</a>
+              </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item dropdown">
               <a class="nav-link js-scroll-trigger" href="#contact" style="color: black">Contact</a>
             </li>
           </ul>
@@ -56,7 +69,7 @@
       </div>
     </nav>
 
-    <header class="masthead text-center text-white d-flex">
+    <header class="masthead text-center text-white d-flex" id="headertag">
       <!--<div class="container my-auto">-->
         <div class="row" id="header">
           <!--<div class="col-lg-10 mx-auto">
@@ -69,10 +82,10 @@
             <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
           </div>-->
-          <div class="col-4 left col-xs-12">
+          <div class="col-sm-4 left ">
             <h3>INTERSUSTAINABILITY COUNCIL</h3>
           </div>
-          <div class="col-4 right col-xs-12">
+          <div class="col-sm-8 right ">
             <img src="img/header1.jpg" id="headImg">
           </div>
         </div>
@@ -80,13 +93,16 @@
     </header>
 
     <section class="bg-primary" id="about">
-      <div class="container">
+      <div class="container my-auto" id="about-text">
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
-            <hr class="light my-4">
-            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          <div class="col-sm-4">
+            <img src="img/logo.png" alt="logo" id="logo">
+          </div>
+          <div class="col-sm-8 my-auto mx-auto text-center">
+            <p class="mb-4">ISC welcomes all of the environmental student organizations on campus who encompass the same goal: <b>sustainability.</b> 
+            </p>
+            <p class="mb-4">The goal of ISC is to bring together all of the sustainability organizations in order to foster an environment of growth and productivity on our campus. 
+            </p>
           </div>
         </div>
       </div>

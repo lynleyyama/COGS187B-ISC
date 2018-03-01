@@ -39,7 +39,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: pink !important;
 }
 
 .bg-dark {
@@ -51,7 +51,8 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 4rem 0;
+  background-color: white;
 }
 
 .section-heading {
@@ -82,7 +83,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #black;
+  background-color: white;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -126,7 +127,7 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #mainNav {
-    border-color: transparent;
+    border-color: white;
     background-color: white;
   }
   #mainNav .navbar-brand {
@@ -167,9 +168,9 @@ img::-moz-selection {
 }
 
 header.masthead {
-  /*padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header1.jpg");
+  padding-top: 10rem;
+  /*padding-bottom: calc(10rem - 56px);*/
+  /*background-image: url("../img/header1.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;

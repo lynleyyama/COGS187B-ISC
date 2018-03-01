@@ -7,16 +7,50 @@
 		max-width: 10rem;
 	}
 
-	.left, .right {
-		margin-top: 10%;
-		width: 100%;
+	.left {
 		display: block;
+		max-width: 100%;
+		padding: 10% 0;
 	}
+
+
+	.right {
+		display: block;
+		max-width: 100%;
+	}
+
+	#headImg {
+		max-width: 100%;
+	}
+
+	#logo {
+		max-width: 30%;
+	}
+	header.masthead {
+		padding-top: 3.5rem;
+		max-height: 25rem;
+	}
+	#about p {
+		font-size: 0.5rem;
+	}
+	#about {
+		padding; 2rem 0;
+	}
+
 }
 
-a .navbar-brand {
-	padding: 0;
-	margin: 0;
+#headertag {
+	max-height: 89%;p
+}
+
+header {
+	max-height: 80%;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#header {
+	height: 90%;
 }
 
 .nav-item {
@@ -25,25 +59,48 @@ a .navbar-brand {
 }
 
 #headImg {
-	max-height: 100%;
+	max-width: 100%;
+	max-height: 89%;
 }
 
 .left {
 	background-color: black;
 	color: white;
+	max-height: 89.5%;
 }
 
-header {
-	max-height: 10rem;
-	margin-top: 7%;
+#about-text {
+	text-align: left;
+}
+
+.dropbtn {
+    background-color: white;
+    padding: 16px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 
-/*.right {
-	background-image: url('img/header1.png');
-	background-position: center center;
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-}*/
