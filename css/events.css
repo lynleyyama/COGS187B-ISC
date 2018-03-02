@@ -1,0 +1,12 @@
+
+.eventpic {
+  float:left;
+  width:10%;
+}
+
+.eventcontent {
+  float:right;
+  width:60%;
+  padding:0 5px;
+}
+
