@@ -10,7 +10,6 @@
 	.left {
 		display: block;
 		max-width: 100%;
-		padding: 10% 0;
 	}
 
 
@@ -33,9 +32,11 @@
 	#about p {
 		font-size: 0.5rem;
 	}
-	#about {
-		padding; 2rem 0;
+
+	section {
+		padding: 1.75rem;
 	}
+	
 
 }
 
@@ -43,12 +44,20 @@
 	max-height: 89%;p
 }
 
-header {
+header .row{
 	max-height: 100%;
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
 
+header h3 {
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+}
+#council {
+	font-size: 4em;
+}
 .nav-item {
 	margin: 0 30px;
 	text-align: left;
@@ -56,17 +65,17 @@ header {
 
 #headImg {
 	max-width: 100%;
-	max-height: 89%;
+	height: auto;
 }
 
 .left {
-	background-color: black;
-	color: white;
-	max-height: 89.5%;
+	color: black;
+	max-height: 100%;
+	width: 100%;
 }
 
-#about-text {
-	text-align: left;
+#about p {
+	text-align: left !important;
 }
 
 .dropbtn {
@@ -101,9 +110,17 @@ header {
 }
 
 @media (max-width: 992px){
+
 	.dropdown-content a:hover {
 		display: none;
 	}
+	#logo {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		padding-bottom: 15px;
+	}
+
 }
 .navbar-brand {
 	max-width: 20vw;
@@ -114,6 +131,21 @@ header {
 .navbar-nav {
 	margin-left: 15%;
 }
+.navbar {
+	postion: absolute;
+}
 
-
+.value {
+	width:60%;
+	padding-bottom: 15px;
+}
+#values {
+	background-color: #f8f9fa;
+}
+#footer {
+	width: 20%;
+	margin: auto 5%;
+	position: absolute;
+	left: 0;
+}
 
