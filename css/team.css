@@ -1,7 +1,38 @@
-html,body {
-	height: 100%;
+.member {
+	margin: .75rem 1.5rem;
+	background-color: #e5f7d3;
+}
+.member img {
+	width: 60%;
+}
+.info {
+	line-height: 8px;
+	font-size: 13px;
+	margin-left: 30px;
+	padding-bottom: 8px;
+
+}
+.member-header h1 {
+	font-size: 30px;
+	padding-top: 10px;
+}
+.member-header h6 {
+	padding-bottom: 5px;
+}
+.social-media i{
+	padding: 15px 12px;
+
+}
+span {
+	font-weight: bold;
 }
 
-#foot {
-	position
+@media (max-width: 997px){
+	.info {
+		line-height: 7px;
+		margin-left: 16px;
+	}
+	.member {
+		margin: .75rem;
+	}
 }
