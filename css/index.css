@@ -196,6 +196,9 @@ form input {
 	#email {
 		width: 100%;
 	}
+	.navbar-nav {
+		margin: 0;
+	}
 }
 
 #subscription {
