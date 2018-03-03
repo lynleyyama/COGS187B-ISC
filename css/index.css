@@ -82,6 +82,9 @@ header h3 {
 #about p {
 	text-align: left !important;
 }
+#about b {
+	font-size: 20px;
+}
 
 .dropbtn {
     background-color: white;
@@ -127,6 +130,11 @@ header h3 {
 	}
 
 }
+@media (min-width: 992px){
+	#header {
+		background-color: #989898;
+	}
+}
 .navbar-brand {
 	max-width: 20vw;
 }
@@ -144,9 +152,6 @@ header h3 {
 	width:60%;
 	padding-bottom: 15px;
 }
-#values {
-	background-color: #f8f9fa;
-}
 #footer {
 	width: 20%;
 	margin: auto 5%;
@@ -154,6 +159,39 @@ header h3 {
 	left: 0;
 }
 
+form input {
+	padding: .375em .75em;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	width: 100%;
+}
+#submitbtn {
+	float: right;
+	margin-right: 30%;
+	margin-bottom: 1rem;
+}
+
+#email {
+	width: 55%;
+	margin: 15px 0;
+}
+#subscription {
+	padding: 8vh;
+	background-color: #989898;
+}
+
+.social i {
+	padding: 10px;
+}
+
+.sectiondiv {
+	border-color: #989898;
+	border-width: 1px;
+	max-width:60%;
+}
 
  .col-centered {
     float: none;

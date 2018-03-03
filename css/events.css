@@ -1,0 +1,17 @@
+
+.eventpic {
+  float:left;
+  width:40%;
+  box-sizing: border-box;
+  padding: 50px 0px 0px 50px;
+  background-color: white;
+}
+
+.eventcontent {
+  float:right;
+  width:60%;
+  padding: 50px 50px 0px 50px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
