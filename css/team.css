@@ -1,15 +1,20 @@
 .member {
-	margin: .75rem 1.5rem;
-	background-color: #e5f7d3;
+	margin: .75rem 0;
+	background-color: #f1f2f4;
+	border: 15px solid white;
+	padding: 10px 0;
 }
 .member img {
 	width: 60%;
+	border-radius: 8px;
 }
+
 .info {
 	line-height: 8px;
-	font-size: 13px;
+	font-size: 12px;
 	margin-left: 30px;
 	padding-bottom: 8px;
+	width:95%;
 
 }
 .member-header h1 {
@@ -25,14 +30,43 @@
 }
 span {
 	font-weight: bold;
+	font-size: 13px;
 }
+
+#teammem {
+	margin: 0 7%;
+}
+
+.container {
+	padding: 0 0;
+}
+@media (min-width: 992px){
+.container {
+    max-width: 5000px;
+}
+
+#teamhead
+ {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url("../img/team.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 @media (max-width: 997px){
 	.info {
 		line-height: 7px;
-		margin-left: 16px;
+		margin-left: 10px;
 	}
 	.member {
-		margin: .75rem;
+		margin: 0.75rem 0;
+		border: 5px solid white;
+	}
+	#teammem {
+		margin: 0;
 	}
 }
