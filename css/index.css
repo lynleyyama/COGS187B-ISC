@@ -166,6 +166,12 @@ header h3 {
 	left: 0;
 }
 
+@media (max-width: 992px){
+	#footer {
+	width: 35%;
+	}
+}
+
 form input {
 	padding: .375em .75em;
 	font-size: 1rem;

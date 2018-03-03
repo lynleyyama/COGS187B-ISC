@@ -12,8 +12,8 @@
 .info {
 	line-height: 8px;
 	font-size: 12px;
-	margin-left: 30px;
-	padding-bottom: 8px;
+	margin-left: 76px;
+	padding: 15px 0;
 	width:95%;
 
 }
@@ -32,6 +32,9 @@ span {
 	font-weight: bold;
 	font-size: 13px;
 }
+.social {
+	width: 90%;
+}
 
 #teammem {
 	margin: 0 7%;
@@ -44,6 +47,11 @@ span {
 .container {
     max-width: 5000px;
 }
+#teammem {
+	margin: 0 7%;
+	padding: 0;
+}
+}
 
 #teamhead
  {
@@ -55,12 +63,15 @@ span {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    max-width: 100%;
+	margin: 0;
+
   }
 
 @media (max-width: 997px){
 	.info {
 		line-height: 7px;
-		margin-left: 10px;
+		margin-left: 16vw;
 	}
 	.member {
 		margin: 0.75rem 0;
@@ -70,4 +81,5 @@ span {
 		border: 0;
 		margin: 0;
 	}
+
 }
