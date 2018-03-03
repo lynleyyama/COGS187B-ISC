@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: #6ec65f;
 }
 
 hr.light {
@@ -19,7 +19,7 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: #6ec65f;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -39,7 +39,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: pink !important;
+  background-color: white !important;
 }
 
 .bg-dark {
@@ -51,7 +51,7 @@ h6 {
 }
 
 section {
-  padding: 4rem 0;
+  padding: 3rem 0;
   background-color: white;
 }
 
@@ -116,7 +116,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #7ACA7A !important;
+  color: #6ec65f !important;
   background-color: white;
 }
 
@@ -199,8 +199,8 @@ header.masthead p {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
-    /*min-height: 0vh;*/
+    /*height: 100vh;*/
+    min-height: 50vh;
     padding-top: 0;
     padding-bottom: 0;
   }
