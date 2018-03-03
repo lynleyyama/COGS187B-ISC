@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #6ec65f;
+  border-color: #98B998;
 }
 
 hr.light {
@@ -19,7 +19,7 @@ hr.light {
 }
 
 a {
-  color: #6ec65f;
+  color: #98B998;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -93,12 +93,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #6ec65f;
+  color: #98B998;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #6ec65f;
+  color: #cafb98;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -111,12 +111,12 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #6ec65f;
+  color: #98B998;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #6ec65f !important;
+  color: #98B998 !important;
   background-color: white;
 }
 
@@ -145,17 +145,17 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #6ec65f;
+    color: #98B998;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #6DB56D;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #6ec65f;
+    color: #98B998;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #6ec65f;
+    color: #98B998;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -163,7 +163,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #6ec65f;
+    color: #98B998;
   }
 }
 
@@ -176,6 +176,7 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;*/
+  max-height: 70vh;
 }
 
 header.masthead hr {
@@ -299,8 +300,8 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #6ec65f;
-  border-color: #6ec65f;
+  background-color: #c9c9c9;
+  border-color: #c9c9c9;
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;

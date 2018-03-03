@@ -35,9 +35,8 @@ NAV BAR
 		max-height: 25rem;
 	}
 	#about p {
-		font-size: 0.5rem;
+		font-size: 12px;
 	}
-
 	section {
 		padding: 1.75rem;
 	}
@@ -46,11 +45,12 @@ NAV BAR
 }
 
 #headertag {
-	max-height: 89%;p
+	max-height: 89%;
+	background-color: #98B998;
 }
 
 header .row{
-	max-height: 100%;
+	max-height: 78vh;
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
@@ -69,8 +69,8 @@ header h3 {
 }
 
 #headImg {
-	max-width: 100%;
-	height: auto;
+	max-height: 100%;
+	width: 100%;
 }
 
 .left {
@@ -84,6 +84,10 @@ header h3 {
 }
 #about b {
 	font-size: 20px;
+}
+
+#about {
+	padding-top: 1.75rem;
 }
 
 .dropbtn {
@@ -128,11 +132,14 @@ header h3 {
 		display: block;
 		padding-bottom: 15px;
 	}
+	#about b {
+		font-size: 14px;
+	}
 
 }
 @media (min-width: 992px){
 	#header {
-		background-color: #989898;
+		background-color: #98B998;
 	}
 }
 .navbar-brand {
@@ -178,13 +185,21 @@ form input {
 	width: 55%;
 	margin: 15px 0;
 }
+
+@media (max-width: 992px){
+	#email {
+		width: 100%;
+	}
+}
+
 #subscription {
 	padding: 8vh;
-	background-color: #989898;
+	background-color: #98B998;
 }
 
 .social i {
 	padding: 10px;
+	color: #589058;
 }
 
 .sectiondiv {
