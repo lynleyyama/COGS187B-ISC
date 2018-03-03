@@ -31,47 +31,55 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top"><img id="navLogo" src="img/isc.png" alt="logo"/></a>-->
-        <img src="img/isc.png" alt="logo" id="navLogo">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
+    <a class="navbar-brand" href="#page-top">  <img src="img/isc.png" alt="logo" id="navLogo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" id="navbtn">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
             <li class="nav-item dropdown">
-              <a class="nav-link dropbtn" href="#" style="color: black" role="button" id="aboutMenu">About</a>
-              <div class="dropdown-content" aria-labeledby="aboutMenu">
-                <a class="dropdown-item" href="#">Meet the Team</a>
-                <a class="dropdown-item" href="#">How to Get Involved</a>
-                <a class="dropdown-item" href="#">Newsletter</a>
-              </div>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Meet the Team</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">How to Get Involved</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Newsletter</a>
+                </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services" style="color: black">Member Organizations</a>
+                <a class="nav-link" href="#">Member Organizations</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropbtn" href="#" style="color: black" id="eventsMenu">Events</a>
-              <div class="dropdown-content" aria-labeledby="eventsMenu">
-                <a class="dropdown-item" href="#">Job Fair</a>
-                <a class="dropdown-item" href="#">Green Talks</a>
-                <a class="dropdown-item" href="#">Recyclemania Fair</a>
-                <a class="dropdown-item" href="#">Calendar</a>
-              </div>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Events
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Job Fair</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Green Talks</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Recyclemania Fair</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Annual Earth Month Fair</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Calendar</a>
+                </div>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link js-scroll-trigger" href="#contact" style="color: black">Contact</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
             </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+        </ul>
+    </div>
+</nav>
 
  <!-- HEADER-->
     
 
-    <header class="masthead text-center text-white d-flex" id="memberorghead">
+    <header class="masthead text-center text-white d-flex" id="contactus">
         <div class="container my-auto">
           <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -86,68 +94,63 @@
 
 <!-- Content-->
 
-
 <center><h3>Location and Hours</h3>
 <p>We are located at Northeast corner of the Price Center West, first level near the theater</p>
 <p>Academic breaks and summer: 9a.m.-3p.m. on weekends</p></center>
 
 <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6701.387880974946!2d-117.21060192426908!3d32.879816345301165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c3f6a28c7b%3A0x9b2d832a6419e89b!2sPrice+Center+Theater!5e0!3m2!1sen!2sus!4v1519876257108" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></center>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-</style>
-</head>
-<body>
 
 <center><h3>Contact Form</h3></center>
+<style type="text/css">
 
-<div class="container">
-  <form action="/action_page.php">
-    <label for="fname">Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+body {
+    margin:50px 0px; padding:0px;
+    text-align:center;
+    align:center;
+}
+label,input {
+ display: block;
+ width: 150px;
+ float: left;
+ margin-bottom: 10px;
+}
 
-    <label for="lname">Email</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your email..">
+label {
+ text-align: right;
+ width: 75px;
+ padding-right: 20px;
+}
 
-    <label for="subject">Message</label>
-    <textarea id="subject" name="subject" placeholder="Your Message.." style="height:200px"></textarea>
+br {
+ clear: left;
+}
 
-    <input type="submit" value="Submit">
-  </form>
-</div>
 
-        
+
+    </style>
+</head>
+
+
+<body>
+
+ <form name="Form1"  action="mypage.asp" method="get">
+
+ <label for="name">Name</label>
+ <input id="name" name="name"><br>
+
+ <label for="address">Email</label>
+ <input id="address" name="address"><br>
+
+ <label for="city">Message</label>
+ <input id="city" name="city"><br>
+ <input type="submit" name="submit" id="submit" value="submit" class="button" />
+
+</form>
+</body>
+
+
   <!-- Controls -->
                         <div class="left carousel-control">
                             <a href="#carousel" role="button" data-slide="prev">
@@ -166,6 +169,33 @@ input[type=submit]:hover {
                 </div>
             </div>
         </div>
+
+ <section id="subscription">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading my-4">EMAIL SUBSCRIPTION</h2>
+          </div>
+        </div>
+        <div class="text-center">
+          <form>
+            <input type="email" id="email" placeholder="Email"><br>
+            <button type="submit" name="submit" class="btn btn-primary" id="submitbtn">SUBMIT</button>
+          </form> 
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark text-white">
+      <div class="container">
+        <img src="img/isc.png" alt="isc" id="footer"></img>
+        <div class="text-right social">
+          <a href="#" id="google"><i class="fa fa-google-plus fa-2x"></i></a>
+          <a href="#" id="fb"><i class="fa fa-facebook fa-2x"></i></a>
+        </div>
+      </div>
+    </section>
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
