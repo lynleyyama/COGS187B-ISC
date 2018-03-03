@@ -1,8 +1,9 @@
-header.masthead#memberorghead
+
+ header.masthead#contactus
  {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url("../img/stockphoto1.jpeg");
+    background-image: url("../img/stock2.jpeg");
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -10,18 +11,17 @@ header.masthead#memberorghead
     background-size: cover;
   }
 
-  .col-centered {
+    .col-centered {
       float: none;
       margin: 0 auto;
   }
     /* margin-left: auto; margin-right: auto; */
 
-
- header.masthead#newsletter
+ header.masthead#getinvolved
  {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url("../img/letter.jpg");
+    background-image: url("../img/stock3.jpeg");
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
