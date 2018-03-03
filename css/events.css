@@ -1,12 +1,15 @@
 
 .eventpic {
   float:left;
-  width:10%;
+  width:40%;
+  padding: 50px 20px 30px 50px;
+  box-sizing: border-box;
 }
 
 .eventcontent {
   float:right;
   width:60%;
-  padding:0 5px;
+  padding: 50px 50px 30px 20px;
+  box-sizing: border-box;
 }
 
