@@ -1,0 +1,11 @@
+.team-section
+{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card
+{
+  margin: 0 auto;
+  max-width: 180px;
+}  
