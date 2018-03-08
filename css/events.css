@@ -1,5 +1,5 @@
 
-.eventpic {
+.greenpic {
   float:left;
   width:40%;
   box-sizing: border-box;
@@ -7,7 +7,7 @@
   background-color: white;
 }
 
-.eventcontent {
+.greencontent {
   float:right;
   width:60%;
   padding: 50px 50px 0px 50px;
@@ -16,3 +16,20 @@
   position:
 }
 
+.jobfair {
+  width:100%;
+  padding: 50px 250px 0px 250px;
+  box-sizing: border-box;
+  background-color: white;
+  position: center;
+  text-align: center;
+}
+
+.annualearth {
+  width:100%;
+  padding: 50px 250px 0px 250px;
+  box-sizing: border-box;
+  background-color: white;
+  position: center;
+  text-align: center;
+}
