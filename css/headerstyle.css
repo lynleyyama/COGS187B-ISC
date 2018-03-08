@@ -37,3 +37,15 @@
     -o-background-size: cover;
     background-size: cover;
   }
+
+  header.masthead#newsletter
+ {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url("../img/letter.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
