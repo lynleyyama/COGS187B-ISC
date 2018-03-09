@@ -3,9 +3,50 @@
   width: 80%;
   margin: 0 auto;
 }
+.team-section p {
+	font-size: 1rem;
+	padding: 0;
+}
 
 .card
 {
   margin: 0 auto;
   max-width: 180px;
+  border: none;
 }  
+
+.card>div {
+	display: none;
+}
+
+.card:hover>div {
+	display: block;
+}
+
+.card-text {
+	font-size: 0.3rem;
+	text-align: left;
+}
+.card-body {
+	width: 250px;
+}
+@media (max-height: 992px){
+	.triangle-up-right {
+    width: 0;
+    height: 0;
+    padding-left:25%;
+    padding-top: 25%;
+    overflow: hidden;
+}
+.triangle-up-right:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left:-500px;
+    margin-top:-500px;
+     
+    border-left: 500px solid transparent;
+    border-top: 500px solid #4679BD;
+}
+}
