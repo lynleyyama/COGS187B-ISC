@@ -94,61 +94,63 @@
 
 <!-- Content-->
 
-<center><h3>Location and Hours</h3>
-<p>We are located at Northeast corner of the Price Center West, first level near the theater</p>
+<center><h2>Location</h2>
+<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.690408278772!2d-117.2393046852612!3d32.87990978094107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c3f6a28c7b%3A0x9b2d832a6419e89b!2sPrice+Center+Theater!5e0!3m2!1sen!2sus!4v1520548788732" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></center>
+<p>We are located at Northeast corner of the Price Center West, first level near the Price Center Theater.</p>
+<center><h2>Hours</h2>
 <p>Academic breaks and summer: 9a.m.-3p.m. on weekends</p></center>
-
-<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6701.387880974946!2d-117.21060192426908!3d32.879816345301165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c3f6a28c7b%3A0x9b2d832a6419e89b!2sPrice+Center+Theater!5e0!3m2!1sen!2sus!4v1519876257108" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></center>
-
-
-
 <center><h3>Contact Form</h3></center>
-<style type="text/css">
+<head>
 
-body {
-    margin:50px 0px; padding:0px;
-    text-align:center;
-    align:center;
+<style>
+div {
+    width:800px;
+    margin: auto;
 }
-label,input {
- display: block;
- width: 150px;
- float: left;
- margin-bottom: 10px;
-}
-
-label {
- text-align: right;
- width: 75px;
- padding-right: 20px;
-}
-
-br {
- clear: left;
-}
-
-
-
-    </style>
+</style>
 </head>
-
-
 <body>
 
- <form name="Form1"  action="mypage.asp" method="get">
-
- <label for="name">Name</label>
- <input id="name" name="name"><br>
-
- <label for="address">Email</label>
- <input id="address" name="address"><br>
-
- <label for="city">Message</label>
- <input id="city" name="city"><br>
- <input type="submit" name="submit" id="submit" value="submit" class="button" />
-
+<style> 
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+</style>
+<div>
+<form>
+  <label for="fname">Name</label>
+  <input type="text" id="fname" name="fname" placeholder="Your name..">
+  <label for="lname">Email</label>
+  <input type="text" id="lname" name="lname" placeholder="Your email..">
+   <label for="lname">Message</label>
+   <input type="text" id="lname" name="lname" placeholder="Your message..">
+</div>
 </form>
+
+
+<head>
+<style> 
+input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 6px 3px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<input type="submit" value="Submit">
+
 </body>
+
 
 
   <!-- Controls -->
