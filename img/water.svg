@@ -3,8 +3,8 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 508 508" style="enable-background:new 0 0 508 508;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#C0CEB2;stroke:#C0CEB2;stroke-miterlimit:10;}
-	.st1{fill:#54C0EB;}
+	.st0{fill:#D2EAB2;stroke:#D2EAB2;stroke-miterlimit:10;}
+	.st1{fill:#54C0EB;stroke:#D2EAB2;stroke-miterlimit:10;}
 	.st2{fill:#84DBFF;}
 </style>
 <circle class="st0" cx="254" cy="254" r="254"/>
@@ -16,6 +16,6 @@
 		c1.2-32,32-75.2,51.6-118.4c2-3.6,3.6-7.6,5.2-11.2c-0.8,1.2-1.6,2.4-2.4,3.2c-26.4,40.4-64,78.8-70.8,110
 		c-1.6,7.2-2.4,15.2-2.4,23.2c0.4,16.8,4.8,32,12.4,46C171.2,352.4,174,354,177.2,353.6L177.2,353.6z"/>
 	
-		<ellipse transform="matrix(0.9991 -4.200074e-02 4.200074e-02 0.9991 -15.2059 8.2356)" class="st2" cx="188.4" cy="366" rx="9.2" ry="8.4"/>
+		<ellipse transform="matrix(0.9991 -4.200148e-02 4.200148e-02 0.9991 -15.206 8.2359)" class="st2" cx="188.4" cy="366" rx="9.2" ry="8.4"/>
 </g>
 </svg>

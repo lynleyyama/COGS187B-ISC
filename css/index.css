@@ -110,7 +110,7 @@ header h3 {
 }
 
 #foot {
-	background-color: #616161;
+	background-color: #EBEBE9;
 }
 
 #about b {
@@ -152,7 +152,7 @@ header h3 {
 }
 @media (min-width: 992px){
 	#header {
-		background-color: #8AAE92;
+		background-color: #83B271;
 	}
 }
 .navbar-brand {
@@ -216,7 +216,7 @@ form input {
 
 #subscription {
 	padding: 8vh;
-	background-color: #8AAE92;
+	background-color: #83B271;
 }
 
 .social i {
