@@ -62,7 +62,17 @@ header.masthead#events
     background-size: cover;
   }
 
-
+header.masthead#calendar
+ {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url("../img/calendar.png");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
  header.masthead#annualearth
  {
