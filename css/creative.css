@@ -50,7 +50,8 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-#about h2
+
+.h2padding
 {
   padding-bottom: 20px;
 }
