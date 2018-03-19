@@ -147,7 +147,7 @@ input[type=submit] {
 </head>
 <body>
 
-<input type="submit" value="Submit">
+<input type="submit" value="Submit" id="submit">
 
 </body>
 
@@ -198,6 +198,14 @@ input[type=submit] {
       </div>
     </section>
 
+    <script>
+        $(document).ready(){
+            $('#submit').click(function(){
+            alert("enter");
+        }); 
+        }
+       
+    </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
