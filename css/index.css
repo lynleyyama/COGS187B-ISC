@@ -2,15 +2,42 @@
 NAV BAR
 *******************/ 
 
+@font-face {
+	font-family: "Avenir";
+	src: url("fonts/Avenir/Avenir-Book-01.ttf") format("truetype"); 
+}
+
+@font-face{
+	font-family: "Hiragino";
+	font-weight: 700;
+	src: url("fonts/Hiragino/HiraginoW8.otf") format("opentype");
+}
+
+@font-face{
+	font-family: "Aileron-Bold";
+	src: url("fonts/Aileron/Aileron-Bold.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "Aileron-SemiBold";
+	src: url("fonts/Aileron/Aileron-SemiBold.ttf") format("truetype");
+}
+
+
+@font-face{
+	font-family: "Aileron-Black";
+	src: url("fonts/Aileron/Aileron-Black.ttf") format("truetype");
+}
+
+
 
 #navLogo {
-	max-width: 100%;
+	width: 160px;
+	height: auto;
+	margin-left: 5em;
 }
 
 @media (max-width: 992px) {
-	#navLogo {
-		max-width: 10rem;
-	}
 
 	.left {
 		display: block;
@@ -33,6 +60,7 @@ NAV BAR
 	header.masthead {
 		padding-top: 3.5rem;
 		max-height: 25rem;
+
 	}
 	#about p {
 		font-size: 12px;
@@ -43,6 +71,7 @@ NAV BAR
 	
 
 }
+
 
 #headertag {
 	max-height: 89%;
@@ -56,16 +85,24 @@ header .row{
 }
 
 header h3 {
-	font-size: 2em;
+	font-family: 'Aileron-Black', Arial, sans-serif;
+	font-size: 1.8em;
 	margin: 0;
 	padding: 0;
+	line-height: .9em;
+}
+
+header h5{
+	font-family: 'Aileron-SemiBold', sans-serif;
 }
 #council {
-	font-size: 4em;
+	font-size: 5em;
 }
 .nav-item {
+	font-family: 'Avenir', Arial, sans-serif;
+	font-weight: lighter;
 	margin: 0 30px;
-	text-align: left;
+	text-align: left;	
 }
 
 #headImg {
@@ -98,7 +135,9 @@ header h3 {
 
 .dropdown {
     position: relative;
-    display: inline-block;
+	display: inline-block;
+	font-family: 'Avenir', Arial, sans-serif;
+	font-weight: lighter;
 }
 
 .dropdown-content {
@@ -172,6 +211,12 @@ header h3 {
 	width:60%;
 	padding-bottom: 15px;
 }
+
+.valuefont
+{
+	font-family: 'Aileron-Bold', sans-serif;
+}
+
 #footer {
 	width: 20%;
 	margin: auto 5%;
@@ -215,8 +260,9 @@ form input {
 }
 
 #subscription {
-	padding: 8vh;
-	background-color: #83B271;
+	font-style: 'Impact', sans-serif;
+	padding: 6vh;
+	margin-bottom: 8vh;
 }
 
 .social i {
