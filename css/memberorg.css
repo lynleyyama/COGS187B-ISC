@@ -3,7 +3,7 @@
   width: 80%;
   margin: 0 auto;
 }
-.team-section p {
+.team-section {
 	font-size: 1rem;
 	padding: 0;
 }
@@ -24,23 +24,16 @@
 }
 
 .card-text {
-	font-size: 0.3rem;
 	text-align: left;
+	font-size: 0.8rem;
 }
 .card-body {
 	width: 250px;
+	margin-left: -15%;
+}
+.card-title {
+	margin-left: -10%;
 }
 @media (max-height: 992px){
-	.img-fluid:after {
-		content:'';
-	    width: 0; 
-	    height: 0; 
-	    border-left: 20px solid transparent;
-	    border-right: 20px solid transparent;   
-	    border-top: 20px solid #f00;
-	    position:absolute;
-	    left:50%;
-	    top:0;
-	    transform:translatex(-50%);
-	}
+	
 }
