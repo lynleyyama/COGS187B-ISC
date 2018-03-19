@@ -442,6 +442,8 @@ form input {
 	.active > div:first-child + div + div + div { display:block; }
 }
 
+
+
 .block {
 	width: 306px;
 	height: 230px;
