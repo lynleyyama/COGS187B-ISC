@@ -10,12 +10,13 @@
 
 
 .member {
-	margin: .75em 0;
+	margin: -.5em 0;
 	border-radius: 5%;
 	padding: 10px 0;
 }
 .member img {
-	width: 50%;
+	min-width: 50%;
+	max-width: 50%;
 	border-radius: 6px;
 }
 
@@ -34,7 +35,7 @@
 }
 .member-header h6 {
 	font-family: 'Aileron-SemiBold', Arial, sans-serif;
-	color: #83B271;
+	color: #5A8F3A;
 	padding-bottom: 5px;
 }
 .social-media i{
@@ -81,5 +82,10 @@ span {
 		border: 0;
 		margin: 0;
 	}
+}
 
+.pizza
+{
+	width: 72%;
+	margin: 0 auto;
 }
