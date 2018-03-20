@@ -30,6 +30,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  font-family: 'Avenir', Arial, sans-serif;
 }
 
 .greencontent {
@@ -41,6 +42,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  font-family: 'Avenir', Arial, sans-serif;
 }
 
 .jobfair {
@@ -52,6 +54,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  font-family: 'Avenir', Arial, sans-serif;
 }
 
 .annualearth {
@@ -61,6 +64,7 @@
   background-color: white;
   position: center;
   text-align: center;
+  font-family: 'Avenir', Arial, sans-serif;
 }
 
 .collapsible {
@@ -85,6 +89,7 @@ background: none;
 margin-left: auto;
   margin-right: auto;
   text-align: left;
+  font-family: 'Avenir', Arial, sans-serif;
 }
 
 }
