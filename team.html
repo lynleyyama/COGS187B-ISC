@@ -17,6 +17,7 @@
     <link href="resources/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 
     <!-- Plugin CSS -->
     <link href="resources/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -25,7 +26,12 @@
     <link href="css/creative.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link href="css/headerstyle.css" rel="stylesheet">
-    <link href="css/team.css" rel="stylesheet" type="text/css">
+    <link href="css/team copy.css" rel="stylesheet" type="text/css">
+
+    <script src="resources/jquery-easing/jquery.easing.min.js"></script>
+    <script src="resources/scrollreveal/scrollreveal.min.js"></script>
+    <script src="resources/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/creative.min.js"></script>
   </head>
   <body id="page-top">
     
@@ -80,114 +86,146 @@
 
 <section class="team-section">
     <div class="row pizza">
-        <div class="col-lg-4 col-sm-12 member text-center">
-            <div class="member-header">
-                <h1>Katie Oberman</h1>
-                <h6>Chair</h6>
-            </div>
-            <img src="teampicsquare/KATIE.png" alt="member image"></img>
+        <div class="card" style="width: 16rem;" id="top">
+          <div class="wrapper">
+             <i class="fas fa-plus-circle fa-lg icon" id="plus"></i>
+             <i class="fas fa-times fa-lg icon minus" id="x"></i>
+            <img class="card-img-top" src="teampicsquare/KATIE.png" alt="Card image cap">
             <div class="social-media">
-                <a href="https://www.facebook.com/profile.php?id=100012166936480" id="fb"><i class="fa fa-facebook-square fa-2x"></i></a>
-                <a href="mailto:koberman@ucsd.edu" id="fb"><i class="fa fa-envelope fa-2x"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100012166936480" id="fb"><i class="fab fa-facebook-square fa-3x"></i></a>
+                <a href="mailto:koberman@ucsd.edu" id="fb"><i class="fa fa-envelope fa-3x"></i></a>
             </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Katie Oberman</h5>
+            <p class="card-text">Chair</p>
+          </div>
+          
         </div>
-        <div class="col-lg-4 col-sm-12 member text-center">
-            <div class="container">
-            <div class="member-header">
-                <h1>Katherine Hsu</h1>
-                <h6>Communications Chair</h6>
-            </div>
-            <img src="teampicsquare/KATHERINE.png" alt="Katherine Hsu"></img>
+        <div class="card" style="width: 16rem;">
+          <div class="wrapper">
+            <i class="fas fa-plus-circle fa-lg icon" id="plus"></i>
+            <i class="fas fa-times fa-lg icon minus" id="x"></i>
+            <img class="card-img-top" src="teampicsquare/KATHERINE.png" alt="Card image cap">
             <div class="social-media">
-                <a href="https://www.facebook.com/katherinehsu98" id="fb"><i class="fa fa-facebook-square fa-2x"></i></a>
-                <a href="mailto:kyh021@ucsd.edu" id="fb"><i class="fa fa-envelope fa-2x"></i></a>
+                <a href="https://www.facebook.com/katherinehsu98" id="fb"><i class="fab fa-facebook-square fa-3x"></i></a>
+                <a href="mailto:kyh021@ucsd.edu" id="fb"><i class="fa fa-envelope fa-3x"></i></a>
             </div>
-            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Katherine Hsu</h5>
+            <p class="card-text">Communications Chair</p>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-12 member text-center">
-            <div class="member-header">
-                <h1>Lucinda Liu</h1>
-                <h6>Marketing Chair</h6>
-            </div>
-            <img src="teampicsquare/LUCINDA.png" alt="Lucinda Liu"></img>
+        <div class="card" style="width: 16rem;">
+          <div class="wrapper">
+            <i class="fas fa-plus-circle fa-lg icon" id="plus"></i>
+            <i class="fas fa-times fa-lg icon minus" id="x"></i>
+            <img class="card-img-top" src="teampicsquare/LUCINDA.png" alt="Card image cap">
             <div class="social-media">
-                <a href="https://www.facebook.com/profile.php?id=100004305271816" id="fb"><i class="fa fa-facebook-square fa-2x"></i></a>
-                <a href="#" id="fb"><i class="fa fa-envelope fa-2x"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100004305271816" id="fb"><i class="fab fa-facebook-square fa-3x"></i></a>
+                <a href="#" id="fb"><i class="fa fa-envelope fa-3x"></i></a>
             </div>
-        </div>
-    </div>
-    <div class="row pizza" id="row">
-        <div class="col-lg-4 col-sm-12 member text-center">
-            <div class="member-header">
-                <h1>Thania Bejarano</h1>
-                <h6>Community Relations Chair</h6>
-            </div>
-            <img src="teampicsquare/THANIA.png" alt="member image"></img>
-            <div class="social-media">
-                <a href="https://www.facebook.com/thania.bejarano.7" id="fb"><i class="fa fa-facebook-square fa-2x"></i></a>
-                <a href="mailto:tbejaran@ucsd.edu" id="fb"><i class="fa fa-envelope fa-2x"></i></a>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-12 member text-center">
-            <div class="container">
-            <div class="member-header">
-                <h1>Ahan Mukhopadhyay</h1>
-                <h6>Project Director Chair</h6>
-            </div>
-            <img src="teampicsquare/AHAN.png" alt="member image"></img>
-            <div class="social-media">
-                <a href="https://www.facebook.com/ahanm.xyz" id="fb"><i class="fa fa-facebook-square fa-2x"></i></a>
-                <a href="mailto:amukhopa@ucsd.edu" id="fb"><i class="fa fa-envelope fa-2x"></i></a>
-            </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-12 member text-center">
-            <div class="member-header">
-                <h1>Kristi Jan</h1>
-                <h6>Finance Chair</h6>
-            </div>
-            <img src="teampicsquare/KRISTI.png" alt="member image"></img>
-            <div class="social-media">
-                <a href="https://www.facebook.com/kristixjan" id="fb"><i class="fa fa-facebook-square fa-2x"></i></a>
-                <a href="mailto:kljan@ucsd.edu" id="fb"><i class="fa fa-envelope fa-2x"></i></a>
-            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Lucinda Liu</h5>
+            <p class="card-text">Marketing Chair</p>
+          </div>
         </div>
     </div>
     <div class="row pizza" id="row">
-        <div class="col-lg-4 col-sm-12 member text-center">
-            <div class="member-header">
-                <h1>Darya Verzhbinsky</h1>
-                <h6>ISC Certificate Chair</h6>
-            </div>
-            <img src="teampicsquare/DARYA.png" alt="member image"></img>
+        <div class="card" style="width: 16rem;">
+          <div class="wrapper">
+            <i class="fas fa-plus-circle fa-lg icon" id="plus"></i>
+            <i class="fas fa-times fa-lg icon minus" id="x"></i>
+            <img class="card-img-top" src="teampicsquare/THANIA.png" alt="Card image cap">
             <div class="social-media">
-                <a href="https://www.facebook.com/darya.verzhbinsky" id="fb"><i class="fa fa-facebook-square fa-2x"></i></a>
-                <a href="mailto:darverzhbi@ucsd.edu" id="fb"><i class="fa fa-envelope fa-2x"></i></a>
+                <a href="https://www.facebook.com/thania.bejarano.7" id="fb"><i class="fab fa-facebook-square fa-3x"></i></a>
+                <a href="mailto:tbejaran@ucsd.edu" id="fb"><i class="fa fa-envelope fa-3x"></i></a>
             </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Thania Bejarano</h5>
+            <p class="card-text">Community Relations Chair</p>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-12 member text-center">
-            <div class="container">
-            <div class="member-header">
-                <h1>Marinelle Villanueva</h1>
-                <h6>Event Co-Chair</h6>
-            </div>
-            <img src="teampicsquare/MARINELLE.png" alt="member image"></img>
+        <div class="card" style="width: 16rem;">
+          <div class="wrapper">
+            <i class="fas fa-plus-circle fa-lg icon" id="plus"></i>
+            <i class="fas fa-times fa-lg icon minus" id="x"></i>
+            <img class="card-img-top" src="teampicsquare/AHAN.png" alt="Card image cap">
             <div class="social-media">
-                <a href="https://www.facebook.com/MarinelleV" id="fb"><i class="fa fa-facebook-square fa-2x"></i></a>
-                <a href="mailto:msvillan@ucsd.edu" id="fb"><i class="fa fa-envelope fa-2x"></i></a>
+                <a href="https://www.facebook.com/ahanm.xyz" id="fb"><i class="fab fa-facebook-square fa-3x"></i></a>
+                <a href="mailto:amukhopa@ucsd.edu" id="fb"><i class="fa fa-envelope fa-3x"></i></a>
             </div>
-            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Ahan Mukhopadhyay</h5>
+            <p class="card-text">Project Director Chair</p>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-12 member text-center">
-            <div class="member-header">
-                <h1>Jen D. Bowser</h1>
-                <h6>Sustainability Program Coordinator</h6>
-            </div>
-            <img src="teampicsquare/JEN.png" alt="member image"></img>
+        <div class="card" style="width: 16rem;">
+          <div class="wrapper">
+            <i class="fas fa-plus-circle fa-lg icon" id="plus"></i>
+            <i class="fas fa-times fa-lg icon minus" id="x"></i>
+            <img class="card-img-top" src="teampicsquare/KRISTI.png" alt="Card image cap">
             <div class="social-media">
-                <a href="https://www.linkedin.com/in/jennifer-doleva-bowser-9503339b" id="fb"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                <a href="mailto:jbowser@ucsd.edu" id="fb"><i class="fa fa-envelope fa-2x"></i></a>
+                <a href="https://www.facebook.com/kristixjan" id="fb"><i class="fab fa-facebook-square fa-3x"></i></a>
+                <a href="mailto:kljan@ucsd.edu" id="fb"><i class="fa fa-envelope fa-3x"></i></a>
             </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Kristi Jan</h5>
+            <p class="card-text">Finance Chair</p>
+          </div>
+        </div>
+    
+    </div>
+    <div class="row pizza" id="row">
+        <div class="card" style="width: 16rem;">
+          <div class="wrapper">
+            <i class="fas fa-plus-circle fa-lg icon" id="plus"></i>
+            <i class="fas fa-times fa-lg icon minus" id="x"></i>
+            <img class="card-img-top" src="teampicsquare/DARYA.png" alt="Card image cap">
+            <div class="social-media">
+                <a href="https://www.facebook.com/darya.verzhbinsky" id="fb"><i class="fab fa-facebook-square fa-3x"></i></a>
+                <a href="mailto:darverzhbi@ucsd.edu" id="fb"><i class="fa fa-envelope fa-3x"></i></a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Darya Verzhbinsky</h5>
+            <p class="card-text">ISC Certificate Chair</p>
+          </div>
+        </div>
+        <div class="card" style="width: 16rem;">
+          <div class="wrapper">
+            <i class="fas fa-plus-circle fa-lg icon" id="plus"></i>
+            <i class="fas fa-times fa-lg icon minus" id="x"></i>
+            <img class="card-img-top" src="teampicsquare/MARINELLE.png" alt="Card image cap">
+            <div class="social-media">
+                <a href="https://www.facebook.com/MarinelleV" id="fb"><i class="fab fa-facebook-square fa-3x"></i></a>
+                <a href="mailto:msvillan@ucsd.edu" id="fb"><i class="fa fa-envelope fa-3x"></i></a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Marinelle Villanueva</h5>
+            <p class="card-text">Event Co-Chair</p>
+          </div>
+        </div>
+        <div class="card" style="width: 16rem;" id="bottom">
+          <div class="wrapper">
+            <i class="fas fa-plus-circle fa-lg icon" id="plus"></i>
+            <i class="fas fa-times fa-lg icon minus" id="x"></i>
+            <img class="card-img-top" src="teampicsquare/JEN.png" alt="Card image cap">
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/jennifer-doleva-bowser-9503339b" id="fb"><i class="fab fa-linkedin fa-3x"></i></a>
+                <a href="mailto:jbowser@ucsd.edu" id="fb"><i class="fa fa-envelope fa-3x"></i></a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Jen D. Bowser</h5>
+            <p class="card-text">Sustainability Program Coordinator</p>
+          </div>
         </div>
     </div>
 
@@ -204,10 +242,18 @@
       </div>
     </section>
 
-<script src="resources/jquery-easing/jquery.easing.min.js"></script>
-    <script src="resources/scrollreveal/scrollreveal.min.js"></script>
-    <script src="resources/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/creative.min.js"></script>
+    <script>
+      if ( $(window).width() < 992) {      
+        $('.card').click(function(){
+          $(this).find('.social-media').toggleClass('show');
+          $(this).find('img').toggleClass('img-back');
+          $(this).find('#plus').toggleClass('minus');
+          $(this).find('#x').toggleClass('minus');
+        });
+      }
+    </script>
+
+
   </body>
 
 </html>
