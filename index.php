@@ -1,1 +1,1 @@
-<?php include_once("home.hmtl"); ?>
+<?php header('Location: /index.html'); ?>
