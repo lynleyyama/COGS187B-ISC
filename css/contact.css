@@ -3,20 +3,21 @@
 }
 .hours {
 	text-align: center;
-	padding-left: 3rem;
+	
 }
 .hours p {
-	width: 400px;
+	width: 80%;
 	text-align: left;
 }
 .hoursinfo {
-	padding-left: 5rem;
+	padding-left: 10rem;
 }
 .location {
 	padding-left: 3rem;
 }
 #info {
 	margin-top: 5%;
+	margin-left: 8%;
 }
 #contactform {
 	text-align: center;
@@ -32,4 +33,28 @@
 }
 textarea {
 	margin-bottom: 3%;
+}
+
+#submitbtn
+{
+	margin-left: 300px;
+}
+
+@media (max-width: 700px)
+{
+	.hoursinfo{
+		padding-left: 0rem;
+		margin: 0 auto;
+	}
+	.hours p {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.location {
+		width: 100%;
+		padding-left: 0;
+	}
+	.hoursbody {
+		padding: 2em 0;
+	}
 }

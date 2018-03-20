@@ -104,8 +104,7 @@ header h5{
 	font-size: 5em;
 }
 .nav-item {
-	font-family: 'Avenir', Arial, sans-serif;
-	font-weight: lighter;
+	font-family: 'Avenir', sans-serif;
 	margin: 0 30px;
 	text-align: left;	
 }
