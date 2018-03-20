@@ -28,12 +28,15 @@
 }
 
 
-/*.hover>div {
-	display: none;
+#directions
+{ 
+	width: 50%;
+  height: auto;
+  margin: 0 auto;
 }
-.hover:hover>div {
-	display:block;
-}*/
+
+
+
 .card-body hr {
 	text-align: center;
 }
@@ -65,6 +68,11 @@
 	}
 	.show {
 		display: block;
+	}
+
+	#directions
+	{
+		width: 85%;
 	}
 
 	
