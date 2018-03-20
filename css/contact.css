@@ -1,0 +1,12 @@
+.navbar-nav .dropdown-menu {
+	width: 100%;
+}
+.hours {
+	text-align: center;
+}
+.location {
+	text-align: center;
+}
+.location p {
+	text-align: left;
+}
