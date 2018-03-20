@@ -7,7 +7,7 @@ header.masthead
  {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url("../img/stock2.jpeg");
+    background-image: url("../img/memberorgshead.png");
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -32,7 +32,7 @@ header.masthead
  {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url("../img/stock2.jpeg");
+    background-image: url("../img/teamheader.png");
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -58,7 +58,7 @@ header.masthead
  {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url("../img/letter.jpg");
+    background-image: url("../img/newsletterhead.png");
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -70,7 +70,7 @@ header.masthead#events
  {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url("../img/eventbanner.jpg");
+    background-image: url("../img/eventsheader.png");
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -82,7 +82,7 @@ header.masthead#calendar
  {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url("../img/calendar.jpg");
+    background-image: url("../img/calendarhead.png");
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
