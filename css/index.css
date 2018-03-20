@@ -282,12 +282,20 @@ form input {
 	border-radius: .25rem;
 	width: 100%;
 }
-#submitbtn {
+#submitbtnhome {
 	color: white;
 	float: right;
 	margin-right: 22.5%;
 	margin-bottom: 1rem;
 }
+#submitbtncontact
+{
+	color: white;
+	float: right;
+	margin-bottom: 1rem;
+}
+
+
 
 #email {
 	width: 55%;
@@ -376,6 +384,11 @@ form input {
 	.carousel-inner .prev		     { left: -50%; }
   .carousel-col                { width: 50%; }
 	.active > div:first-child + div { display:block; }
+	#submitbtnhome {
+		clear: both;
+		margin-right: 0 auto;
+		margin-bottom: 1rem;
+	}
 }
 
 /*md*/
