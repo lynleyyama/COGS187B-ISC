@@ -4,6 +4,9 @@
 .hours {
 	text-align: center;
 }
+.hours p {
+	width: 400px;
+}
 .location {
 	text-align: center;
 }
@@ -12,7 +15,15 @@
 }
 #contactform {
 	text-align: center;
+	margin: 3% 0;
 }
 #contactform input {
 	display: block;
+	margin: 3%;
+}
+.form-group {
+	width: 60%;
+}
+textarea {
+	margin-bottom: 3%;
 }
