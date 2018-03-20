@@ -38,6 +38,9 @@ NAV BAR
 }
 
 @media (max-width: 992px) {
+	#navLogo {
+		margin-left: 0;
+	}
 
 	.left {
 		display: block;

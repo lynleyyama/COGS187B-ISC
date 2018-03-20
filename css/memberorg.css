@@ -1,3 +1,6 @@
+* {
+	font-family: 'Avenir', Arial, sans-serif;
+}
 .team-section
 {
   width: 80%;
@@ -13,14 +16,26 @@
   margin: 0 auto;
   max-width: 180px;
   border: none;
-}  
+} 
+@media (min-width: 701px){
+	.card>div {
+		display: none;
+	}
 
-.card>div {
-	display: none;
+	.card:hover>div {
+		display: block;
+	}
 }
 
-.card:hover>div {
-	display: block;
+
+/*.hover>div {
+	display: none;
+}
+.hover:hover>div {
+	display:block;
+}*/
+.card-body hr {
+	text-align: center;
 }
 
 .card-text {
@@ -29,11 +44,28 @@
 }
 .card-body {
 	width: 250px;
-	margin-left: -15%;
+	margin-left: -35%;
+	padding-top: 0;
 }
 .card-title {
-	margin-left: -10%;
+	margin-left: -7%;
+	font-weight: bold;
 }
-@media (max-height: 992px){
+.section-heading {
+	margin-top: 5%;
+}
+#EJA {
+	margin-left: -22%;
+}
+@media (max-width: 700px){
+	.card-body {
+		margin-left: -20%;
+		padding: 0 0 0 0.75rem;
+		display: none;
+	}
+	.show {
+		display: block;
+	}
+
 	
 }

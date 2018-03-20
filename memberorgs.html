@@ -11,16 +11,16 @@
     <title>Member Organizations</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="resources/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 
     <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="resources/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/creative.css" rel="stylesheet">
@@ -28,13 +28,25 @@
     <link href="css/headerstyle.css" rel="stylesheet">
     <link href="css/memberorg.css" rel="stylesheet">
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="resources/jquery/jquery.min.js"></script>
+    <script src="resources/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="resources/jquery-easing/jquery.easing.min.js"></script>
+    <script src="resources/scrollreveal/scrollreveal.min.js"></script>
+    <script src="resources/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
-    <a class="navbar-brand" href="#page-top">  <img src="img/isclogo_sizechange.png" alt="logo" id="navLogo"></a>
+    <a class="navbar-brand" href="index.html">  <img src="img/isclogo_sizechange.png" alt="logo" id="navLogo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" id="navbtn">
     <span class="navbar-toggler-icon"></span>
     </button>
@@ -125,7 +137,8 @@
 
       <!--Card image-->
       <img class="img-fluid" src="orglogo/asaffairs.jpg" alt="ASA Affairs">
-      <div class="card-body">
+      <div class="card-body" id="EJA">
+        <hr>
         <h6 class="card-title">Environmental Justice Affairs</h6>
         <p class="card-text">The ultimate purpose of the Office of Environmental Justice Affairs is to ensure that our Associated Students plays a significant role in the advocacy, outreach, policy and education of environmental justice within our UCSD community.</p>
         <a href="https://asucsdsustain.wordpress.com/" class="btn btn-primary"><i class="fas fa-globe"></i></a>
@@ -146,7 +159,8 @@
             <!--Card image-->
             <img class="img-fluid triangle triangle-0" src="orglogo/AEP.jpg" id="AEP">
             <div class="card-body">
-              <h6 class="card-title text-uppercase">Association of Environmental Professionals</h6>
+              <hr>
+              <h6 class="card-title">Association of Environmental Professionals</h6>
               <p class="card-text">The Association of Environmental Professionals (AEP) is a non-profit organization established to facilitate greater relationships between professionals and foster mutual professional growth of our members through those relationships.</p>
               <a href="http://sd.califaep.org/" class="btn btn-primary"><i class="fas fa-globe"></i></a>
               <a href="mailto:sdaepnews@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i></a>
@@ -166,7 +180,8 @@
         <!--Card image-->
         <img class="img-fluid" src="orglogo/AQUAHOLICS ANONYMOUS.png" alt="Aquaholics Anonymous">
         <div class="card-body">
-          <h6 class="card-title text-uppercase">Aquaholics Anonymous</h6>
+          <hr>
+          <h6 class="card-title">Aquaholics Anonymous</h6>
           <p class="card-text">The mission of AQUAholics Anonymous is to encourage water conservation through education and outreach and to be a resource for networking and collaboration between different areas of campus that are working on water conservation.</p>
           <a href="http://aquaholics.ucsd.edu/" class="btn btn-primary"><i class="fas fa-globe"></i></a>
           <a href="mailto:koconnell@ucsd.edu" class="btn btn-primary"><i class="fas fa-envelope"></i></a>
@@ -185,7 +200,8 @@
               <!--Card image-->
               <img class="img-fluid" src="orglogo/calpirg.jpg" alt="Calpirg">
               <div class="card-body">
-                <h6 class="card-title text-uppercase">CALPIRG</h6>
+                <hr>
+                <h6 class="card-title">CALPIRG</h6>
                 <p class="card-text">CALPIRG is a statewide, student-directed non-profit organization that works to solve problems facing our society, specifically by defending the public interest against powerful special interests.</p>
                 <a href="https://calpirgstudents.org/ucsd" class="btn btn-primary"><i class="fas fa-globe"></i></a>
                 <a href="mailto:megan@calpirgstudents.org" class="btn btn-primary"><i class="fas fa-envelope"></i></a>
@@ -208,7 +224,8 @@
             <!--Card image-->
             <img class="img-fluid" src="orglogo/EBE.png" alt="EBE">
             <div class="card-body">
-                <h6 class="card-title text-uppercase">Ecology, Behavior, and Evolution Club</h6>
+              <hr>
+                <h6 class="card-title">Ecology, Behavior, and Evolution Club</h6>
                 <p class="card-text">The Ecology, Behavior & Evolution Club at UCSD seeks to provide students with research opportunities and information regarding careers in ecology, behavior & evolution (EBE).</p>
                 <a href="http://labs.biology.ucsd.edu/cleland/cleland/SEEDS_EBE_Club.html" class="btn btn-primary"><i class="fas fa-globe"></i></a>
                 <a href="https://www.facebook.com/groups/EBEatUCSD/" class="btn btn-primary"><i class="fab fa-facebook-f"></i></a>
@@ -226,7 +243,8 @@
           <!--Card image-->
           <img class="img-fluid" src="orglogo/ECONAUTS.png" alt="Econauts">
           <div class="card-body">
-            <h6 class="card-title text-uppercase">Econauts</h6>
+            <hr>
+            <h6 class="card-title">Econauts</h6>
             <p class="card-text">Through education, events, and programming, the Housing • Dining • Hospitality EcoNauts represent the department’s sustainable efforts and ensure we practice what we preach—recycle, conserve, and sustain! </p>
             <a href="https://hdh.ucsd.edu/sustainability/pages/Econauts.html" class="btn btn-primary"><i class="fas fa-globe"></i></a>
             <a href="mailto:econauts@ucsd.edu" class="btn btn-primary"><i class="fas fa-envelope"></i></a>
@@ -246,6 +264,7 @@
           <!--Card image-->
           <img class="img-fluid" src="orglogo/engineerssustain.png" alt="Engineers for a Sustainable World">
           <div class="card-body">
+            <hr>
             <h6 class="card-title">Engineers for a Sustainable World</h6>
             <p class="card-text">Engineers for a Sustainable World at UC San Diego is a group of passionate students striving to make a difference in the world through sustainable projects.</p>
             <a href="https://eswtritons.wordpress.com/" class="btn btn-primary"><i class="fas fa-globe"></i></a>
@@ -267,6 +286,7 @@
           <!--Card image-->
           <img class="img-fluid" src="orglogo/foodrecoverynetwork.png" alt="Food Recovery Network">
           <div class="card-body">
+            <hr>
             <h6 class="card-title">Food Recovery Network</h6>
             <p class="card-text">Food Recovery Network at UCSD serves to provide a link between these parallel problems by diverting unwanted food "waste" to those in need.</p>
             <a href="https://www.foodrecoverynetwork.org/california/" class="btn btn-primary"><i class="fas fa-globe"></i></a>
@@ -294,6 +314,7 @@
       <!--Card image-->
       <img class="img-fluid" src="orglogo/GROW UCSD.png" alt="Grow UCSD">
       <div class="card-body">
+        <hr>
         <h6 class="card-title">Grow UCSD</h6>
         <p class="card-text">Grow UCSD provides a forum for the collaboration of student gardens on campus. This includes opportunities for students to get involved with existing gardens, as well as educational, social, and research opportunities.</p>
         <a href="http://sustain.ucsd.edu/involve/gardens.html" class="btn btn-primary"><i class="fas fa-globe"></i></a>
@@ -313,6 +334,7 @@
             <!--Card image-->
             <img class="img-fluid" src="orglogo/muirenviron.jpg" alt="Muir Environmental Corps">
             <div class="card-body">
+              <hr>
               <h6 class="card-title">Muir Environmental Corps</h6>
               <p class="card-text">Muir Environmental Corps (MEC) participates in environmental activities at the college and in the surrounding community.  Outings include clean-up projects at the cliffs, and along streams and beach bluffs, supporting recycling efforts around the campus, and coordinating Muir’s Annual Whale Watching Trip.</p>
               <a href="https://www.facebook.com/groups/MECatUCSD/about/" class="btn btn-primary"><i class="fab fa-facebook-f"></i></a>
@@ -332,6 +354,7 @@
         <!--Card image-->
         <img class="img-fluid" src="orglogo/RCG.jpg" alt="RCG">
         <div class="card-body">
+          <hr>
           <h6 class="card-title">Roger's Community Garden</h6>
           <p class="card-text">Roger’s Community Garden at UCSD (formerly the Neighborhood Community Garden) is a student-led garden serving the UCSD and San Diego community aimed at offering land to students, staff,  faculty, and alumni, to grow herbs, flowers, fruits and vegetables.</p>
           <a href="http://ncgardenucsd.com/" class="btn btn-primary"><i class="fas fa-globe"></i></a>
@@ -351,6 +374,7 @@
               <!--Card image-->
               <img class="img-fluid" src="orglogo/sierraclub.png" alt="Sierra Club">
               <div class="card-body">
+                <hr>
                 <h6 class="card-title">Sierra Club at UCSD</h6>
                 <p class="card-text">A group of UCSD students who want to represent the Sierra Club here at UCSD through environmental activism, ecological education, and outdoor recreation. They will be planning hikes and camping trips, as well as creating conservation projects on and off campus. </p>
                 <a href="http://www.sierraclub.org/" class="btn btn-primary"><i class="fas fa-globe"></i></a>
@@ -378,6 +402,7 @@
       <!--Card image-->
       <img class="img-fluid" src="orglogo/staffsustainabilitynetwork.png" alt="Staff Sustainability Network">
       <div class="card-body">
+        <hr>
         <h6 class="card-title">Staff Sustainability Network</h6>
         <p class="card-text">The Staff Sustainability Network is focused on bringing awareness, transparency, and collaboration to existing sustainability efforts, providing support in pursuing new opportunities for positive impact, connecting faculty, staff, students, alumni, and community members with similar eco-passions.</p>
         <a href="http://blink.ucsd.edu/sponsor/ssn/" class="btn btn-primary"><i class="fas fa-globe"></i></a>
@@ -398,6 +423,7 @@
             <!--Card image-->
             <img class="img-fluid" src="orglogo/SURFRIDER FOUNDATION.png" alt="Surfrider Foundation">
             <div class="card-body">
+              <hr>
               <h6 class="card-title">Surfrider Foundation</h6>
               <p class="card-text">Surfrider Foundatioin UCSD club works to keep our local beaches and ocean clean, while also keeping our marine wildlife safe!</p>
               <a href="https://sandiego.surfrider.org/" class="btn btn-primary"><i class="fas fa-globe"></i></a>
@@ -416,6 +442,7 @@
         <!--Card image-->
         <img class="img-fluid" src="orglogo/SWIPES.jpg" alt="SWIPES">
         <div class="card-body">
+          <hr>
           <h6 class="card-title">Swipe Out Hunger</h6>
           <p class="card-text">Through Swipes UC San Diego students are able to directly donate their dining dollars to alleviate hunger in San Diego and on campus.</p>
           <a href="http://www.swipehunger.org/ucsd" class="btn btn-primary"><i class="fas fa-globe"></i></a>
@@ -436,6 +463,7 @@
               <!--Card image-->
               <img class="img-fluid" src="orglogo/TMC.jpg" alt="TMC Community Garden">
               <div class="card-body">
+                <hr>
                 <h6 class="card-title">Thurgood Marshall College Community Garden</h6>
                 <p class="card-text">As guided by the philosophy of Thurgood Marshall College, to develop the scholar and the citizen, the Community Garden will serve as an opportunity to learn about social responsibility through sustainable living, an outdoor study area and a means to develop a close-knit Marshall community.</p>
                 <a href="mailto:marshallcommunitygarden70@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i></a>
@@ -462,6 +490,7 @@
       <!--Card image-->
       <img class="img-fluid" src="orglogo/TRITON FOOD PANTRY.png" alt="Triton Food Pantry">
       <div class="card-body">
+        <hr>
         <h6 class="card-title">Triton Food Pantry</h6>
         <p class="card-text">The mission of the Triton Food Pantry is to provide a discreet service to UCSD students in need of food. We aim to build a network of food resources and awareness about food insecurity so that every UCSD student has nutritious fuel to achieve academic success.</p>
         <a href="https://basicneeds.ucsd.edu/triton-food-pantry/index.html" class="btn btn-primary"><i class="fas fa-globe"></i></a>
@@ -482,6 +511,7 @@
             <!--Card image-->
             <img class="img-fluid" src="orglogo/UCSD SSC.png" alt="Student Sustainability Collective">
             <div class="card-body">
+              <hr>
               <h6 class="card-title">Student Sustainability Collective</h6>
               <p class="card-text">The Student Sustainability Collective (SSC) is a passionate group of student leaders dedicated to promoting sustainable policies, education for students, and social justice dialogue on our campus.</p>
               <a href="http://studentsustainability.ucsd.edu/" class="btn btn-primary"><i class="fas fa-globe"></i></a>
@@ -501,6 +531,7 @@
         <!--Card image-->
         <img class="img-fluid" src="orglogo/UCSD SA.png" alt="Sustainability Ambassadors">
         <div class="card-body">
+          <hr>
           <h6 class="card-title">Sustainability Ambassadors</h6>
           <p class="card-text">The Sustainability Ambassadors are a registered campus student organization based on the Carbon Neutrality Initiative. This program aims to educate and engage UC San Diego students through peer education and programming to raise awareness of UC's goal of achieving carbon neutrality by 2025.</p>
           <a href="https://sustain.ucsd.edu/involve/student-opportunities.html#Sustainability-Ambassadors" class="btn btn-primary"><i class="fas fa-globe"></i></a>
@@ -521,6 +552,7 @@
               <!--Card image-->
               <img class="img-fluid" src="orglogo/UNIVERSITY CENTERS.jpg" alt="University Centers">
               <div class="card-body">
+                <hr>
                 <h6 class="card-title">University Centers</h6>
                 <p class="card-text">Price Center East expansion received a LEED silver equivalent rating for sustainable elements and construction practices. The new Sustainability Resource Center is housed in Price Center West, creating visibility for sustainable efforts and enhancing collaboration among students, staff and faculty.</p>
                 <a href="http://universitycenters.ucsd.edu/aboutus_sustainability.php" class="btn btn-primary"><i class="fas fa-globe"></i></a>
@@ -547,24 +579,25 @@
   <div class="container">
     <img src="img/isc.png" alt="isc" id="footer"></img>
     <div class="text-right social">
-      <a href="#" id="google"><i class="fa fa-google-plus fa-2x"></i></a>
-      <a href="#" id="fb"><i class="fa fa-facebook fa-2x"></i></a>
+      <a href="#" id="google"><i class="fab fa-google-plus-g fa-2x"></i></a>
+      <a href="#" id="fb"><i class="fab fa-facebook-f fa-2x"></i></a>
     </div>
   </div>
 </section>
 
+<script>
+  if ( $(window).width() < 992) {      
+    $('.img-fluid').click(function(){
+      $(this).next().toggleClass('show');
+    });
+  }
+  else {
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  }
+</script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
+    
 
   </body>
 

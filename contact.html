@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -11,28 +11,29 @@
     <title>Contact</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="resources/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
     <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="resources/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/creative.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link href="css/headerstyle.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
 
   </head>
 
   <body id="page-top">
 
-    <!-- Navigation -->
+   <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
-    <a class="navbar-brand" href="index.html">  <img src="img/isc.png" alt="logo" id="navLogo"></a>
+    <a class="navbar-brand" href="index.html">  <img src="img/isclogo_sizechange.png" alt="logo" id="navLogo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" id="navbtn">
     <span class="navbar-toggler-icon"></span>
     </button>
@@ -43,34 +44,26 @@
                 About
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Meet the Team</a>
+                    <a class="dropdown-item" href="team.html">Meet the Team</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">How to Get Involved</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Newsletter</a>
+                    <a class="dropdown-item" href="newsletter.html">Newsletter</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Member Organizations</a>
+                <a class="nav-link" href="memberorgs.html">Member Organizations</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Events
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Job Fair</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Green Talks</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Recyclemania Fair</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Annual Earth Month Fair</a>
+                    <a class="dropdown-item" href="#">ISC Events</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Calendar</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
             </li>
         </ul>
     </div>
@@ -93,90 +86,30 @@
     
 
 <!-- Content-->
-
-<section>
-        <center><h2 class="contactheaders">HOURS</h2>
+<div class="row" id="info">
+    <div class="col-lg-6 hours">
+        <h2 class="contactheaders">HOURS</h2>
         <div class="hoursbody">
             <p>Monday-Friday 9am-4:30pm</p>
             <p>Saturday-Sunday CLOSED </p>
             </center>
         </div>
-</section>
-
-<center><h3 class="contactheaders">CONTACT FORM</h3></center>
-<head>
-
-<style>
-div 
-{
-    width:800px;
-    margin: auto;
-}
-</style>
-</head>
-<body>
-
-<style> 
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 4px 0;
-
-}
-</style>
-
-<div>
-<form method="post" action="">
-<input type="text" id="fname" name="fname" placeholder="Your name..">
-<input type="text" id="lname" name="lname" placeholder="Your email..">
-<textarea rows="4" cols="111" type="text" id="lname" name="lname" placeholder="     Your message.."></textarea>
-
+    </div>
+    <div class="col-lg-6 location">
+        <h2 class="contactheaders">LOCATION</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.690408278772!2d-117.2393046852612!3d32.87990978094107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c3f6a28c7b%3A0x9b2d832a6419e89b!2sPrice+Center+Theater!5e0!3m2!1sen!2sus!4v1520548788732" width="350" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
 </div>
-</form>
+<div id="contactform">
+    <h3 class="contactheaders">CONTACT FORM</h3>
+    <div>
+        <input type="text" id="fname" name="fname" placeholder="Your name.." class="mx-auto">
+        <input type="text" placeholder="Your email.." class="mx-auto">
+        <textarea rows="4" cols="111" type="text" id="lname" name="lname" placeholder="Your message.."></textarea>
+        <button class="btn btn-primary" type="button">Submit</button>
+    </div>
+</div>
 
-<style> 
-input[type=sumbmit] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 4px 0;
-</style>
-
-<body>  <center>
-    <input type="submit" value="Submit"></center>
-</body>
-
-
-<br> <br>
-<center><h2 class="contactheaders">LOCATION</h2>
-<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.690408278772!2d-117.2393046852612!3d32.87990978094107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c3f6a28c7b%3A0x9b2d832a6419e89b!2sPrice+Center+Theater!5e0!3m2!1sen!2sus!4v1520548788732" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></center>
-<p>We are located at Northeast corner of the Price Center West, first level near the Price Center Theater.</p>
-
-<section></section>
-
-
-
-  <!-- Controls -->
-                        <div class="left carousel-control">
-                            <a href="#carousel" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                        </div>
-                        <div class="right carousel-control">
-                            <a href="#carousel" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
-        
-                </div>
-            </div>
-        </div>
-
- <section>
-
- </section>
 
     <section class="bg-dark text-white">
       <div class="container">
@@ -188,23 +121,16 @@ input[type=sumbmit] {
       </div>
     </section>
 
-    <script>
-        $(document).ready(){
-            $('#submit').click(function(){
-            alert("enter");
-        }); 
-        }
-       
-    </script>
+
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="resources/jquery/jquery.min.js"></script>
+    <script src="resources/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="resources/jquery-easing/jquery.easing.min.js"></script>
+    <script src="resources/scrollreveal/scrollreveal.min.js"></script>
+    <script src="resources/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>

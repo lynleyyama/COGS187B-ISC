@@ -1,0 +1,18 @@
+.navbar-nav .dropdown-menu {
+	width: 100%;
+}
+.hours {
+	text-align: center;
+}
+.location {
+	text-align: center;
+}
+#info {
+	margin-top: 5%;
+}
+#contactform {
+	text-align: center;
+}
+#contactform input {
+	display: block;
+}
