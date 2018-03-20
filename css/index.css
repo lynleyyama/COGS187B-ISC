@@ -120,9 +120,13 @@ header h5{
 	max-height: 100%;
 	width: 100%;
 }
+.des {
+	font-family: 'Avenir', Arial, sans-serif;
+}
 
 #about p {
 	text-align: left !important;
+	font-family: 'Avenir', Arial, sans-serif;
 }
 #about b {
 	font-size: 20px;
@@ -193,6 +197,11 @@ header h5{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.go a {
+	padding: 12px 15px;
+	margin: 0 0.5rem;
+	border-radius: 10px;
+}
 
 @media (max-width: 992px){
 
@@ -208,6 +217,15 @@ header h5{
 	#about b {
 		font-size: 14px;
 	}
+	#about {
+		padding-top: 9rem;
+	}
+	.go {
+		text-align: center;
+	}
+	.go a {
+		margin-bottom: 0.5rem;
+	}
 
 }
 @media (min-width: 992px){
@@ -217,6 +235,9 @@ header h5{
 	#header h6 {
 		margin-top: 1.25rem;
 		width: 75%;
+	}
+	.go {
+		margin-left: 22rem;
 	}
 }
 .navbar-brand {
