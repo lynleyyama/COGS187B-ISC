@@ -363,6 +363,11 @@ form input {
 	.carousel-inner .prev		     { left: -50%; }
   .carousel-col                { width: 50%; }
 	.active > div:first-child + div { display:block; }
+	#submitbtnhome {
+		clear: both;
+		margin-right: 0 auto;
+		margin-bottom: 1rem;
+	}
 }
 
 /*md*/
