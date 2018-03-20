@@ -159,15 +159,20 @@ header h5{
 	color: green;
 }
 #header h3 {
-	color: #E3E6DA;
+	color: white;
 	font-size: 55px;
 	text-align: left;
 	margin: 0 7%;
 }
 #header h6 {
-	color: #C0CEB2;
+	color: white;
 	text-align: left;
-	margin: 0 10%;
+	margin: 2% 7%;
+}
+
+#joinbtn
+{
+	margin-bottom: 2em;
 }
 .dropbtn a:hover {
     color: black;
@@ -211,9 +216,6 @@ header h5{
 .navbar-nav {
 	margin-left: 15%;
 }
-.navbar {
-	postion: absolute;
-}
 
 .value {
 	width:60%;
@@ -248,8 +250,9 @@ form input {
 	width: 100%;
 }
 #submitbtn {
+	color: white;
 	float: right;
-	margin-right: 30%;
+	margin-right: 22.5%;
 	margin-bottom: 1rem;
 }
 

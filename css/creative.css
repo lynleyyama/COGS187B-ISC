@@ -102,7 +102,6 @@ img::-moz-selection {
 }
 
 #mainNav {
-  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: white;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
@@ -457,8 +456,6 @@ body {
     color: #a5a5a5;
     letter-spacing: 1px;
 }
-
-
 
 .contactheaders
 {
