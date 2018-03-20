@@ -65,6 +65,9 @@
 
 .collapsible {
     cursor: pointer;
+    padding: 0;
+    border: none;
+background: none;
     width: 60%;
     display: block;
     margin-right: auto;
