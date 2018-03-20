@@ -7,6 +7,12 @@
 .location {
 	text-align: center;
 }
-.location p {
-	text-align: left;
+#info {
+	margin-top: 5%;
+}
+#contactform {
+	text-align: center;
+}
+#contactform input {
+	display: block;
 }
