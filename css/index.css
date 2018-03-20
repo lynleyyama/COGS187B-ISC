@@ -158,7 +158,7 @@ header h5{
 }
 
 #about b {
-	color: green;
+	color: #83B271;
 }
 #header h3 {
 	color: white;
@@ -261,12 +261,20 @@ form input {
 	border-radius: .25rem;
 	width: 100%;
 }
-#submitbtn {
+#submitbtnhome {
 	color: white;
 	float: right;
 	margin-right: 22.5%;
 	margin-bottom: 1rem;
 }
+#submitbtncontact
+{
+	color: white;
+	float: right;
+	margin-bottom: 1rem;
+}
+
+
 
 #email {
 	width: 55%;
@@ -290,7 +298,14 @@ form input {
 
 .social i {
 	padding: 10px;
-	color: #589058;
+	color: #83B271;
+}
+.social a {
+	color: #83B271;
+	margin: 0.5rem;
+}
+.social a:hover {
+	color: #4e6241;
 }
 
 .sectiondiv {

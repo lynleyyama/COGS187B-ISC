@@ -5,12 +5,19 @@
 	text-align: center;
 	
 }
+.hoursbody {
+	margin-left: 8rem;
+}
 .hours p {
-	width: 80%;
 	text-align: left;
+	width: 85%;
+	margin-left: 3rem;
 }
 .hoursinfo {
-	padding-left: 10rem;
+	margin-top: 1rem;
+}
+.hoursinfo span {
+	color: #83B271;
 }
 .location {
 	padding-left: 3rem;
