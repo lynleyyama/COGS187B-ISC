@@ -70,7 +70,10 @@ header.masthead#events
  {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
+<<<<<<< HEAD
+=======
     background-image: url("../img/eventsheader.png");
+>>>>>>> a0293099c72663aa369c8e568017a422424f8a82
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
