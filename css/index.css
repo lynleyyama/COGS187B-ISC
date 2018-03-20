@@ -29,12 +29,14 @@ NAV BAR
 	src: url("fonts/Aileron/Aileron-Black.ttf") format("truetype");
 }
 
-
+html {
+	max-width: 100%;
+}
 
 #navLogo {
 	width: 160px;
 	height: auto;
-	margin-left: 5em;
+	margin-left: 2em;
 }
 
 @media (max-width: 992px) {
@@ -214,7 +216,7 @@ header h5{
 	background-color: #e6e6e6;
 }
 .navbar-nav {
-	margin-left: 30%;
+	margin-left: 15rem;
 }
 
 .value {

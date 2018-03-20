@@ -29,12 +29,8 @@ html {
 	width:95%;
 
 }
-.card .social-media {
-	display: none;
-}
-.card:hover .social-media {
-	display: block;
-}
+
+
 .card-body h5 {
 	font-family: 'Aileron-SemiBold', Arial, sans-serif;
 	font-size: 1.3rem;
@@ -59,7 +55,7 @@ html {
 	color: #253b18;
 }
 .social-media {
-	transition: .5s ease;
+  transition: .5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -69,6 +65,7 @@ html {
   text-align: center;
   width: 200px;
 }
+
 span {
 	font-weight: bold;
 	font-size: 13px;
@@ -102,8 +99,13 @@ span {
 .icon {
 	display: none;
 }
+.card:hover .social-media {
+	display: block;
 }
-
+.card .social-media {
+	display: none;
+}
+}
 
 
 .pizza
@@ -153,9 +155,6 @@ span {
 	#bottom {
 		margin-bottom: 1.5rem;
 	}
-	.social-media {
-		display: none;
-	}
 	.show {
 		display: block;
 		opacity: 1;
@@ -165,12 +164,13 @@ span {
 	}
 	.icon {
 		color: #5A8F3A;
-		 position: absolute;
+		position: absolute;
 	    top: 16px;
 	    right: 16px;
 	}
 	.minus {
 		display: none;
 	}
+	
 	
 }

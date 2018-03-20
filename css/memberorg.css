@@ -25,6 +25,12 @@
 	.card:hover>div {
 		display: block;
 	}
+	#x {
+	display: none;
+	}
+	#plus {
+		display: none;
+}
 }
 
 
@@ -60,6 +66,7 @@
 #EJA {
 	margin-left: -22%;
 }
+
 @media (max-width: 700px){
 	.card-body {
 		margin-left: -20%;
@@ -74,6 +81,27 @@
 	{
 		width: 85%;
 	}
-
+	h2 {
+		font-size: 1.6rem;
+	}
+	.section-heading {
+		margin-top: 12%;
+	}
+	.icon {
+		color: #5A8F3A;
+		position: absolute;
+	    top: 8px;
+	    right: 8px;
+	}
+	.minus {
+		display: none;
+	}
+	#x {
+		opacity: 1 !important;
+		z-index: 1;
+	}
+	.clicked {
+		opacity: 0.7;
+	}
 	
 }
