@@ -3,19 +3,25 @@
 }
 .hours {
 	text-align: center;
+	padding-left: 3rem;
 }
 .hours p {
 	width: 400px;
+	text-align: left;
+}
+.hoursinfo {
+	padding-left: 5rem;
 }
 .location {
-	text-align: center;
+	padding-left: 3rem;
 }
 #info {
 	margin-top: 5%;
 }
 #contactform {
 	text-align: center;
-	margin: 3% 0;
+	margin: 4% 0;
+	padding-bottom: 5%;
 }
 #contactform input {
 	display: block;
