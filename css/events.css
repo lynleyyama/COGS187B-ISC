@@ -1,7 +1,11 @@
+img{
+  text-align: center;
+  margin: 0 auto;
+}
 
 .greenpic {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: auto;
   box-sizing: border-box;
    padding: 5vw 5vw 0vw 5vw;
   background-color: white;
@@ -17,7 +21,7 @@
   position: center;
   margin-left: auto;
   margin-right: auto;
-  text-align: center
+  text-align: left;
 }
 
 .jobfair {
@@ -28,7 +32,7 @@
   position: center;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .annualearth {
@@ -37,7 +41,7 @@
   box-sizing: border-box;
   background-color: white;
   position: center;
-  text-align: center;
+  text-align: left;
 }
 
 .collapsible {
@@ -48,7 +52,7 @@
     margin-right: auto;
     margin-left: auto;
     position: center;
-  text-align: center;
+    text-align: center;
 }
 
 .content {
@@ -59,5 +63,23 @@
     position: center;
 margin-left: auto;
   margin-right: auto;
-  text-align: center
+  text-align: left;
+}
+
+@media (max-width: 700px){
+  img
+  {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .greenpic
+  {
+    width: 100%;
+
+  }
+  .collapsible
+  {
+    width: 100%;
+    height: auto;
+  }
 }

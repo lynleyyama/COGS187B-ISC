@@ -7,7 +7,7 @@ header.masthead
  {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url("../img/stock2.jpeg");
+    background-image: url("../img/memberorgshead.png");
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -19,7 +19,7 @@ header.masthead
   {
      padding-top: 10rem;
      padding-bottom: calc(10rem - 56px);
-     background-image: url("../img/headerstock.jpeg");
+     background-image: url("../img/headerstock.png");
      background-position: center center;
      -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -32,7 +32,7 @@ header.masthead
  {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url("../img/stock2.jpeg");
+    background-image: url("../img/teamheader.png");
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -58,7 +58,7 @@ header.masthead
  {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url("../img/letter.jpg");
+    background-image: url("../img/newsletterhead.png");
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -70,6 +70,10 @@ header.masthead#events
  {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
+<<<<<<< HEAD
+=======
+    background-image: url("../img/eventsheader.png");
+>>>>>>> a0293099c72663aa369c8e568017a422424f8a82
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -81,7 +85,7 @@ header.masthead#calendar
  {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url("../img/calendar.jpg");
+    background-image: url("../img/calendarhead.png");
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;

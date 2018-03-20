@@ -7,17 +7,18 @@
 	font-family: "Aileron-SemiBold";
 	src: url("fonts/Aileron/Aileron-SemiBold.ttf") format("truetype");
 }
-
-
+html {
+	max-width: 100%;
+}
 .member {
 	margin: -.5em 0;
-	border-radius: 5%;
+	/*border-radius: 5%;*/
 	padding: 10px 0;
 }
 .member img {
 	min-width: 50%;
 	max-width: 50%;
-	border-radius: 6px;
+	/*border-radius: 6px;*/
 }
 
 .info {
@@ -28,20 +29,43 @@
 	width:95%;
 
 }
-.member-header h1 {
-	font-family: 'Aileron-Bold', Arial, sans-serif;
-	font-size: 30px;
-	padding-top: 10px;
-}
-.member-header h6 {
+
+
+.card-body h5 {
 	font-family: 'Aileron-SemiBold', Arial, sans-serif;
+	font-size: 1.3rem;
+}
+.card-body p {
+	font-family: 'Aileron', Arial, sans-serif;
 	color: #5A8F3A;
-	padding-bottom: 5px;
+	font-size: 0.8rem;
+}
+.card-title {
+	margin-bottom: 0;
 }
 .social-media i{
-	padding: 15px 12px;
-
+	padding: 15px 10px;
+	color: #5A8F3A;
 }
+.social-media a {
+	margin: 0 8px;
+	color: #5A8F3A;
+}
+.social-media i:hover {
+	color: #253b18;
+}
+.social-media {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 200px;
+}
+
 span {
 	font-weight: bold;
 	font-size: 13px;
@@ -66,8 +90,41 @@ span {
 	margin: 4% 7%;
 	padding: 0;
 }
+.card:hover img {
+	opacity: 0.2;
+}
+.card:hover .social-media {
+	opacity: 1;
+}
+.icon {
+	display: none;
+}
+.card:hover .social-media {
+	display: block;
+}
+.card .social-media {
+	display: none;
+}
 }
 
+
+.pizza
+{
+	width: 87%;
+	margin: 0 14%;
+	padding-bottom: 1.5rem;
+}
+.card {
+	margin: 0 1.6rem;
+	border-radius: 0;
+}
+.card-img-top {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.wrapper {
+	position: relative;
+}
 
 @media (max-width: 997px){
 	.info {
@@ -82,10 +139,38 @@ span {
 		border: 0;
 		margin: 0;
 	}
-}
-
-.pizza
-{
-	width: 72%;
-	margin: 0 auto;
+	section {
+		padding: 0.35rem;
+	}
+	.pizza {
+		margin: 0 auto;
+		padding-bottom: 0;
+	}
+	.card {
+		margin-bottom: 1rem;
+	}
+	#top {
+		margin-top: 1.5rem;
+	}
+	#bottom {
+		margin-bottom: 1.5rem;
+	}
+	.show {
+		display: block;
+		opacity: 1;
+	}
+	.img-back {
+		opacity: 0.2;
+	}
+	.icon {
+		color: #5A8F3A;
+		position: absolute;
+	    top: 16px;
+	    right: 16px;
+	}
+	.minus {
+		display: none;
+	}
+	
+	
 }
