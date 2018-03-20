@@ -261,12 +261,20 @@ form input {
 	border-radius: .25rem;
 	width: 100%;
 }
-#submitbtn {
+#submitbtnhome {
 	color: white;
 	float: right;
 	margin-right: 22.5%;
 	margin-bottom: 1rem;
 }
+#submitbtncontact
+{
+	color: white;
+	float: right;
+	margin-bottom: 1rem;
+}
+
+
 
 #email {
 	width: 55%;
