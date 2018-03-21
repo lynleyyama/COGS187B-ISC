@@ -54,7 +54,7 @@ html {
 		max-width: 30%;
 	}
 	header.masthead {
-		padding-top: 3.5rem;
+		padding-top: 2.6rem;
 		max-height: 25rem;
 
 	}
@@ -208,14 +208,15 @@ header h5{
 	#about b {
 		font-size: 14px;
 	}
-	#about {
-		padding-top: 9rem;
-	}
 	.go {
 		text-align: center;
 	}
 	.go a {
 		margin-bottom: 0.5rem;
+	}
+	#joinbtn {
+		margin-top: 0.95rem;
+		margin-bottom: 2.5rem;
 	}
 
 }
