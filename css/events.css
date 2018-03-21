@@ -118,7 +118,7 @@ margin-left: auto;
 
 .recyclecontent {
   width: 100%;
-  padding: 0vw 0vw 0vw 5vw;
+  padding: 5vw 5vw 0vw 5vw;
   box-sizing: border-box;
   background-color: white;
   position: center;
@@ -154,7 +154,6 @@ margin-left: auto;
 
 .annualearth {
   width:100%;
-  padding: 5vw 5vw 0vw 5vw;
   box-sizing: border-box;
   background-color: white;
   position: center;
@@ -181,10 +180,16 @@ background: none;
     width: 80%;
     overflow: hidden;
     position: center;
-margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
   text-align: left;
   font-family: 'Avenir', Arial, sans-serif;
 }
 
+}
+.wrapper {
+  position: relative;
+}
+.drop {
+  position: absolute;
 }
