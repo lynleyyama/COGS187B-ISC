@@ -174,3 +174,26 @@ span {
 	}
 	
 }
+
+
+
+
+
+
+
+.wrapper {
+	position: relative;
+}
+
+.dropicon {
+	position: absolute;
+	top: 8px;
+	right: 58px;
+}
+.info {
+	display: none;
+}
+.show{
+	display: block;
+}
+

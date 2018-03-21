@@ -118,7 +118,7 @@ margin-left: auto;
 
 .recyclecontent {
   width: 100%;
-  padding: 5vw 5vw 0vw 5vw;
+  padding: 0vw 5vw 0vw 5vw;
   box-sizing: border-box;
   background-color: white;
   position: center;
@@ -130,7 +130,7 @@ margin-left: auto;
 
 .greencontent {
   width: 100%;
-  padding: 5vw 5vw 0vw 5vw;
+  padding: 0vw 5vw 0vw 5vw;
   box-sizing: border-box;
   background-color: white;
   position: center;
@@ -142,7 +142,7 @@ margin-left: auto;
 
 .jobfair {
   width: 100%;
-  padding: 5vw 0vw 0vw 5vw;
+  padding: 0vw 0vw 0vw 5vw;
   box-sizing: border-box;
   background-color: white;
   position: center;
@@ -187,9 +187,10 @@ background: none;
 }
 
 }
-.wrapper {
-  position: relative;
+
+button {
+  margin: 2rem 0;
 }
-.drop {
-  position: absolute;
+.content {
+  margin-bottom: 4rem;
 }
