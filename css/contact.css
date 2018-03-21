@@ -1,3 +1,6 @@
+html {
+	max-width: 100%;
+}
 .navbar-nav .dropdown-menu {
 	width: 100%;
 }
@@ -5,13 +8,35 @@
 	text-align: center;
 	
 }
-.hoursbody {
-	margin-left: 8rem;
+#info {
+	margin-top: 5%;
+	margin-left: 8%;
+}
+
+@media (min-width: 800px){
+	.hoursbody {
+		margin-left: 8rem;
+	}
+	.location {
+		padding-left: 3rem;
+	}
+}
+@media(max-width: 700px){
+	.hoursbody {
+		margin-left: 20%;
+	}
+	.hours {
+		margin: 0;
+	}
+	#info {
+		margin-left: auto;
+	}
 }
 .hours p {
 	text-align: left;
 	width: 85%;
 	margin-left: 3rem;
+	font-family: 'Avenir', Arial, sans-serif;
 }
 .hoursinfo {
 	margin-top: 1rem;
@@ -19,13 +44,8 @@
 .hoursinfo span {
 	color: #83B271;
 }
-.location {
-	padding-left: 3rem;
-}
-#info {
-	margin-top: 5%;
-	margin-left: 8%;
-}
+
+
 #contactform {
 	text-align: center;
 	margin: 4% 0;
@@ -47,8 +67,7 @@ textarea {
 	margin-left: 300px;
 }
 
-@media (max-width: 700px)
-{
+@media (max-width: 700px){
 	.hoursinfo{
 		padding-left: 0rem;
 		margin: 0 auto;
@@ -59,9 +78,24 @@ textarea {
 	}
 	.location {
 		width: 100%;
-		padding-left: 0;
+		text-align: center;
+		padding: 0 0;
 	}
 	.hoursbody {
 		padding: 2em 0;
 	}
+	.form-group {
+		width: 80%;
+	}
+	#contactform {
+		text-align: center;
+		padding-bottom: 10%;
+	}
+	.hours {
+		text-align: center;
+	}
+}
+
+.hide {
+	display: none;
 }

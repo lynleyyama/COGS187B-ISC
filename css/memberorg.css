@@ -71,6 +71,9 @@ li {
 ol {
 	text-align: left;
 }
+.card-body a {
+	background-color: #bababa;
+}
 
 @media (max-width: 700px){
 	.card-body {
@@ -110,6 +113,10 @@ ol {
 	}
 	.clicked {
 		opacity: 0.7;
+	}
+	.card-body {
+		display: block;
+		margin-bottom: 1.25rem;
 	}
 	
 }
