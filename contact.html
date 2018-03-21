@@ -100,7 +100,7 @@
 
 <!-- Content-->
 <div class="row" id="info">
-    <div class="col-lg-6 hours">
+    <div class="col-lg-6 col-sm-1 hours">
         <h2 class="contactheaders">VISIT US</h2>
         <div class="hoursinfo">
             <p>Our office is located at the <span>Sustainability Resource Center</span> in Price Center Theatre.</p>
@@ -111,8 +111,11 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-6 location">
+    <div class="col-lg-6 col-sm-1 location" id="desktop">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.690408278772!2d-117.2393046852612!3d32.87990978094107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c3f6a28c7b%3A0x9b2d832a6419e89b!2sPrice+Center+Theater!5e0!3m2!1sen!2sus!4v1520548788732" width="350" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="col-lg-6 col-sm-1 location hide" id="mobile">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.690408278772!2d-117.2393046852612!3d32.87990978094107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c3f6a28c7b%3A0x9b2d832a6419e89b!2sPrice+Center+Theater!5e0!3m2!1sen!2sus!4v1520548788732" width="280" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 </div>
 <div id="contactform">
@@ -163,6 +166,10 @@
         $('#submitbtn').click(function(){
             $('input,textarea').val('');
         });
+        if ( $(window).width() < 992) {  
+            $('#mobile').toggleClass('hide');
+            $('#desktop').toggleClass('hide');
+        }
     </script>
 
    
