@@ -30,13 +30,16 @@ html {
 
 }
 
-
+.card-body {
+	padding-bottom: 0rem;
+}
 .card-body h5 {
-	font-family: 'Aileron-SemiBold', Arial, sans-serif;
+	font-family: 'Avenir', Arial, sans-serif;
+	font-weight: bold;
 	font-size: 1.3rem;
 }
 .card-body p {
-	font-family: 'Aileron', Arial, sans-serif;
+	font-family: 'Avenir', Arial, sans-serif;
 	color: #5A8F3A;
 	font-size: 0.8rem;
 }
@@ -70,9 +73,6 @@ span {
 	font-weight: bold;
 	font-size: 13px;
 }
-.social {
-	width: 90%;
-}
 
 #teammem {
 	width: 70%;
@@ -83,28 +83,28 @@ span {
 	padding: 0 0;
 }
 @media (min-width: 992px){
-.container {
-    max-width: 5000px;
-}
-#teammem {
-	margin: 4% 7%;
-	padding: 0;
-}
-.card:hover img {
-	opacity: 0.2;
-}
-.card:hover .social-media {
-	opacity: 1;
-}
-.icon {
-	display: none;
-}
-.card:hover .social-media {
-	display: block;
-}
-.card .social-media {
-	display: none;
-}
+	.container {
+	    max-width: 5000px;
+	}
+	#teammem {
+		margin: 4% 7%;
+		padding: 0;
+	}
+	.card:hover img {
+		opacity: 0.2;
+	}
+	.card:hover .social-media {
+		opacity: 1;
+	}
+	.icon {
+		display: none;
+	}
+	.card:hover .social-media {
+		display: block;
+	}
+	.card .social-media {
+		display: none;
+	}
 }
 
 
@@ -125,6 +125,12 @@ span {
 .wrapper {
 	position: relative;
 }
+#desktop {
+	display: block;
+}
+#mobile {
+	display: none;
+}
 
 @media (max-width: 997px){
 	.info {
@@ -139,7 +145,7 @@ span {
 		border: 0;
 		margin: 0;
 	}
-	section {
+	.team-section {
 		padding: 0.35rem;
 	}
 	.pizza {
@@ -155,21 +161,30 @@ span {
 	#bottom {
 		margin-bottom: 1.5rem;
 	}
-	.show {
-		display: block;
-		opacity: 1;
-	}
-	.img-back {
-		opacity: 0.2;
-	}
+
 	.icon {
 		color: #5A8F3A;
 		position: absolute;
 	    top: 16px;
 	    right: 16px;
 	}
-	.minus {
+	#mobile {
+		display: block;
+		text-align: left;
+		margin-top: 0.5rem;
+	}
+	#mobile a {
+		padding-right: 15px;
+	}
+	#desktop {
 		display: none;
+	}
+	.card-text {
+		margin-bottom: 0;
+	}
+	.card-body {
+		padding-bottom: 0.75rem;
+		padding-right: 0.75rem;
 	}
 	
 	

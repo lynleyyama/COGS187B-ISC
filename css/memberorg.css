@@ -114,5 +114,9 @@ ol {
 	.clicked {
 		opacity: 0.7;
 	}
+	.card-body {
+		display: block;
+		margin-bottom: 1.25rem;
+	}
 	
 }

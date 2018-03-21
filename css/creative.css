@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-  color: #4e6241;
+  color: #4E6A43;
 }
 
 .h2padding
@@ -291,11 +291,11 @@ header.masthead p {
 }
 
 .btn {
-  font-weight: 700;
+  font-weight: regular;
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Avenir', Arial, sans-serif;
 }
 
 .btn-xl {
@@ -309,7 +309,7 @@ header.masthead p {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #4e6241 !important;
+  background-color: #4E6A43 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
