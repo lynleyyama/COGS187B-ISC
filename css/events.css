@@ -1,4 +1,99 @@
+@media screen and (max-width: 520px) {
+  .greenpic {
+  width: 75%;
+  height: auto;
+  box-sizing: border-box;
+   padding: 5vw 5vw 0vw 5vw;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.recyclepic {
+  width: 50%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 5vw 0vw 5vw 0vw;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+}
+
+.recyclecontent {
+  width: 100%;
+  padding: 0vw 0vw 0vw 5vw;
+  box-sizing: border-box;
+  background-color: white;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-family: 'Avenir', Arial, sans-serif;
+}
+
+.greencontent {
+  width: 100%;
+  padding: 5vw 5vw 0vw 5vw;
+  box-sizing: border-box;
+  background-color: white;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-family: 'Avenir', Arial, sans-serif;
+}
+
+.jobfair {
+  width: 100%;
+  padding: 5vw 0vw 0vw 5vw;
+  box-sizing: border-box;
+  background-color: white;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-family: 'Avenir', Arial, sans-serif;
+}
+
+.annualearth {
+  width: 100%;
+  padding: 5vw 5vw 0vw 5vw;
+  box-sizing: border-box;
+  background-color: white;
+  position: center;
+  text-align: center;
+  font-family: 'Avenir', Arial, sans-serif;
+}
+
+.collapsible {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+background: none;
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: center;
+    text-align: center;
+}
+
+.content {
+    padding: 0 10vw;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    position: center;
+margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-family: 'Avenir', Arial, sans-serif;
+}
+
+}
+
+@media screen and (min-width: 520px) {
 
 .greenpic {
   width: 75%;
