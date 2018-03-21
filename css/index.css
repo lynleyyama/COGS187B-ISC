@@ -8,22 +8,13 @@ NAV BAR
 }
 
 @font-face{
-	font-family: "Hiragino";
-	font-weight: 700;
-	src: url("fonts/Hiragino/HiraginoW8.otf") format("opentype");
-}
-
-@font-face{
 	font-family: "Aileron-Bold";
 	src: url("fonts/Aileron/Aileron-Bold.ttf") format("truetype");
 }
-
 @font-face{
 	font-family: "Aileron-SemiBold";
 	src: url("fonts/Aileron/Aileron-SemiBold.ttf") format("truetype");
 }
-
-
 @font-face{
 	font-family: "Aileron-Black";
 	src: url("fonts/Aileron/Aileron-Black.ttf") format("truetype");
@@ -95,6 +86,7 @@ header h3 {
 	margin: 0;
 	padding: 0;
 	line-height: .9em;
+	letter-spacing: 1px;
 }
 
 header h5{
@@ -250,8 +242,14 @@ header h5{
 }
 
 .value {
-	width:60%;
+	width: 60%;
 	padding-bottom: 15px;
+
+}
+
+.value img
+{
+	
 }
 
 .valuefont
